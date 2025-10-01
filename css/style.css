@@ -4,8 +4,32 @@
 }
 
 
-.logo, 
-h1 {
+.logo {
     font-family: "Boots and Spurs", sans-serif;
     text-decoration: none;
 }
+
+header,
+footer {
+    background: #202020;
+    color: #fff;
+}
+
+.reviews {
+    background: #c4c4bc;
+}
+
+.cta {
+    background: #960d0d;
+    color: #fff;
+}
+
+.cta-sale {
+    background: #198d19;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+}
+
