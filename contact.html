@@ -19,7 +19,30 @@
         </nav>
     </header>
     <main>
-        <h1>Contact</h1>  
+        <h1>Contact</h1>
+        <section>
+            <form method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="guitars">Guitars</label>
+                <select name="guitars" id="guitars">
+                    <option value="Adinrondack Red">Adinrondack Red</option>
+                    <option value="Adinrondack Pink">Adinrondack Pink</option>
+                    <option value="Adinrondack Green">Adinrondack Green</option>
+                </select>
+                
+                <input type="checkbox" name="email-updates" id="email-updates">
+                <label for="email-updates">Sign up for email updates.</label>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+
+                <input type="submit" value="Send Now" class="cta-btn">
+            </form>
+        </section>
     </main>
     <footer><p>Guitar Kings &copy;</p></footer>
 </body>

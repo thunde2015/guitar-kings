@@ -51,9 +51,6 @@ nav a {
     text-decoration: none;
 }
 
-.reviews {
-    background: #e8e8e8;
-}
 
 .featured-products {
     background: #fbfbfb;
@@ -77,5 +74,47 @@ footer {
 
 footer {
     text-align: center;
+}
+
+
+/* Home page */
+.welcome {
+    background: url(../images/home-header.jpg) no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    min-height: 70vh;
+}
+
+.selling-point_image {
+    border-radius: 100px;
+}
+
+.reviews {
+    background: #e8e8e8;
+}
+
+.review_images {
+    border-radius: 50%;
+}
+
+
+/* Guitars page */
+
+
+
+/* Contact page */
+input,
+select,
+textarea {
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+.cta-btn {
+    color: #ffffff;
+    background: #bb0000;
+    border: none;
+    outline: none;
 }
 
