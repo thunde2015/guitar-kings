@@ -96,6 +96,14 @@ footer {
     background-position-y: bottom;
     background-size: cover;
     min-height: 70vh;
+    position: relative;
+}
+
+.welcome_content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
 }
 
 .selling-point_image {
