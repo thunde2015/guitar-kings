@@ -106,16 +106,41 @@ footer {
     left: 100px;
 }
 
+.selling-points, 
+.reviews-content {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.selling-points> *, .reviews-content >* {
+    flex: 1;
+}
+
 .selling-point_image {
     border-radius: 100px;
+    width: 100%;
 }
 
 .reviews {
     background: #e8e8e8;
+    text-align: center;
+    padding: 50px;
+}
+.reviews-content {
+    gap: 30px;
+    text-align: left;
+}
+
+.reviews-content span {
+    margin-top: 20px;
+    display: block;
 }
 
 .review_images {
+    width: 100px;
     border-radius: 50%;
+    float: right;
 }
 
 
