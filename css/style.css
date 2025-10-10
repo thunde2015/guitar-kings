@@ -34,6 +34,7 @@ header,
 footer {
     background: #202020;
     color: #ffffff;
+    padding: 10px 0;
 }
 
 nav li {
