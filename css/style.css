@@ -157,10 +157,7 @@ textarea {
     border-radius: 5px;
 }
 
-.cta-btn {
-    color: #ffffff;
-    background: #bb0000;
+input[type="submit"] {
     border: none;
-    outline: none;
 }
 
